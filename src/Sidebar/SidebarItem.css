@@ -1,0 +1,18 @@
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.sidebarItem:hover {
+  border-radius: 10px;
+  background: lightgrey;
+}
+.sidebarItem > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+.sidebarItem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #2e81f4;
+}
